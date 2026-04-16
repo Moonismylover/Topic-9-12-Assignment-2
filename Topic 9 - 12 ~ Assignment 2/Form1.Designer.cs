@@ -344,114 +344,133 @@
             // 
             // ttquit
             // 
+            this.ttquit.AutomaticDelay = 100;
             this.ttquit.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttquit.ForeColor = System.Drawing.Color.Aqua;
             this.ttquit.OwnerDraw = true;
             // 
             // ttclear
             // 
+            this.ttclear.AutomaticDelay = 100;
             this.ttclear.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttclear.ForeColor = System.Drawing.Color.Aqua;
             this.ttclear.OwnerDraw = true;
             // 
             // ttdelete
             // 
+            this.ttdelete.AutomaticDelay = 100;
             this.ttdelete.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttdelete.ForeColor = System.Drawing.Color.Aqua;
             this.ttdelete.OwnerDraw = true;
             // 
             // ttone
             // 
+            this.ttone.AutomaticDelay = 100;
             this.ttone.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttone.ForeColor = System.Drawing.Color.Aqua;
             this.ttone.OwnerDraw = true;
             // 
             // tttwo
             // 
+            this.tttwo.AutomaticDelay = 100;
             this.tttwo.BackColor = System.Drawing.SystemColors.ControlText;
             this.tttwo.ForeColor = System.Drawing.Color.Aqua;
             this.tttwo.OwnerDraw = true;
             // 
             // ttthree
             // 
+            this.ttthree.AutomaticDelay = 100;
             this.ttthree.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttthree.ForeColor = System.Drawing.Color.Aqua;
             this.ttthree.OwnerDraw = true;
             // 
             // ttfour
             // 
+            this.ttfour.AutomaticDelay = 100;
             this.ttfour.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttfour.ForeColor = System.Drawing.Color.Aqua;
             this.ttfour.OwnerDraw = true;
             // 
             // ttfive
             // 
+            this.ttfive.AutomaticDelay = 100;
             this.ttfive.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttfive.ForeColor = System.Drawing.Color.Aqua;
             this.ttfive.OwnerDraw = true;
             // 
             // ttsix
             // 
+            this.ttsix.AutomaticDelay = 100;
             this.ttsix.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttsix.ForeColor = System.Drawing.Color.Aqua;
             this.ttsix.OwnerDraw = true;
             // 
             // ttseven
             // 
+            this.ttseven.AutomaticDelay = 100;
             this.ttseven.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttseven.ForeColor = System.Drawing.Color.Aqua;
             this.ttseven.OwnerDraw = true;
             // 
             // tteight
             // 
+            this.tteight.AutomaticDelay = 100;
             this.tteight.BackColor = System.Drawing.SystemColors.ControlText;
             this.tteight.ForeColor = System.Drawing.Color.Aqua;
             this.tteight.OwnerDraw = true;
             // 
             // ttnine
             // 
+            this.ttnine.AutomaticDelay = 100;
             this.ttnine.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttnine.ForeColor = System.Drawing.Color.Aqua;
             this.ttnine.OwnerDraw = true;
             // 
             // ttdot
             // 
+            this.ttdot.AutomaticDelay = 100;
             this.ttdot.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttdot.ForeColor = System.Drawing.Color.Aqua;
             this.ttdot.OwnerDraw = true;
             // 
             // ttzero
             // 
+            this.ttzero.AutomaticDelay = 100;
             this.ttzero.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttzero.ForeColor = System.Drawing.Color.Aqua;
             this.ttzero.OwnerDraw = true;
             // 
             // ttequal
             // 
+            this.ttequal.AutomaticDelay = 100;
             this.ttequal.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttequal.ForeColor = System.Drawing.Color.Aqua;
             this.ttequal.OwnerDraw = true;
             // 
             // ttplus
             // 
+            this.ttplus.AutomaticDelay = 100;
             this.ttplus.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttplus.ForeColor = System.Drawing.Color.Aqua;
             this.ttplus.OwnerDraw = true;
             // 
             // ttminus
             // 
+            this.ttminus.AutomaticDelay = 100;
             this.ttminus.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttminus.ForeColor = System.Drawing.Color.Aqua;
             this.ttminus.OwnerDraw = true;
             // 
             // ttmultiply
             // 
+            this.ttmultiply.AutomaticDelay = 100;
             this.ttmultiply.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttmultiply.ForeColor = System.Drawing.Color.Aqua;
             this.ttmultiply.OwnerDraw = true;
             // 
             // ttdivide
             // 
+            this.ttdivide.AutomaticDelay = 100;
             this.ttdivide.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttdivide.ForeColor = System.Drawing.Color.Aqua;
             this.ttdivide.OwnerDraw = true;
