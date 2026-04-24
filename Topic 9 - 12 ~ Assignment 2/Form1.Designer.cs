@@ -45,12 +45,10 @@
             this.btnminus = new System.Windows.Forms.Button();
             this.btnmultiply = new System.Windows.Forms.Button();
             this.btndivide = new System.Windows.Forms.Button();
-            this.btndelete = new System.Windows.Forms.Button();
             this.btnclear = new System.Windows.Forms.Button();
             this.btnquit = new System.Windows.Forms.Button();
             this.ttquit = new System.Windows.Forms.ToolTip(this.components);
             this.ttclear = new System.Windows.Forms.ToolTip(this.components);
-            this.ttdelete = new System.Windows.Forms.ToolTip(this.components);
             this.ttone = new System.Windows.Forms.ToolTip(this.components);
             this.tttwo = new System.Windows.Forms.ToolTip(this.components);
             this.ttthree = new System.Windows.Forms.ToolTip(this.components);
@@ -312,21 +310,6 @@
             this.btndivide.UseVisualStyleBackColor = false;
             this.btndivide.Click += new System.EventHandler(this.btndivide_Click);
             // 
-            // btndelete
-            // 
-            this.btndelete.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.btndelete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btndelete.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.ForeColor = System.Drawing.Color.Crimson;
-            this.btndelete.Location = new System.Drawing.Point(297, 114);
-            this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(89, 47);
-            this.btndelete.TabIndex = 16;
-            this.btndelete.Text = "DEL";
-            this.ttdelete.SetToolTip(this.btndelete, "Delete");
-            this.btndelete.UseVisualStyleBackColor = false;
-            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
-            // 
             // btnclear
             // 
             this.btnclear.BackColor = System.Drawing.Color.PaleTurquoise;
@@ -335,9 +318,9 @@
             this.btnclear.ForeColor = System.Drawing.Color.Crimson;
             this.btnclear.Location = new System.Drawing.Point(202, 114);
             this.btnclear.Name = "btnclear";
-            this.btnclear.Size = new System.Drawing.Size(89, 47);
+            this.btnclear.Size = new System.Drawing.Size(184, 47);
             this.btnclear.TabIndex = 17;
-            this.btnclear.Text = "C";
+            this.btnclear.Text = "Clear";
             this.ttclear.SetToolTip(this.btnclear, "Clear");
             this.btnclear.UseVisualStyleBackColor = false;
             this.btnclear.Click += new System.EventHandler(this.btnclear_Click);
@@ -368,12 +351,6 @@
             this.ttclear.AutomaticDelay = 100;
             this.ttclear.BackColor = System.Drawing.SystemColors.ControlText;
             this.ttclear.ForeColor = System.Drawing.Color.Aqua;
-            // 
-            // ttdelete
-            // 
-            this.ttdelete.AutomaticDelay = 100;
-            this.ttdelete.BackColor = System.Drawing.SystemColors.ControlText;
-            this.ttdelete.ForeColor = System.Drawing.Color.Aqua;
             // 
             // ttone
             // 
@@ -505,7 +482,6 @@
             this.Controls.Add(this.txtdisplay);
             this.Controls.Add(this.btnquit);
             this.Controls.Add(this.btnclear);
-            this.Controls.Add(this.btndelete);
             this.Controls.Add(this.btndivide);
             this.Controls.Add(this.btnmultiply);
             this.Controls.Add(this.btnminus);
@@ -547,7 +523,6 @@
         private System.Windows.Forms.Button btnminus;
         private System.Windows.Forms.Button btnmultiply;
         private System.Windows.Forms.Button btndivide;
-        private System.Windows.Forms.Button btndelete;
         private System.Windows.Forms.Button btnclear;
         private System.Windows.Forms.Button btnquit;
         private System.Windows.Forms.ToolTip ttquit;

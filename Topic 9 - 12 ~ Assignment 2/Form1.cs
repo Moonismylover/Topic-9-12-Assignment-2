@@ -13,7 +13,7 @@ namespace Topic_9___12___Assignment_2
     public partial class MainForm : Form
     {
         string sign;
-        double firstNum, secondNum, result;
+        double firstNum, secondNum, result = 0;
         bool enteredFirstNum = false;
         bool enteredSecondNum = false;
 
@@ -43,6 +43,7 @@ namespace Topic_9___12___Assignment_2
             enteredFirstNum = false;
             enteredSecondNum = false;
             result = 0;
+            lsthistory.Items.Clear();
         }
 
         private void btnone_Click(object sender, EventArgs e)
@@ -192,37 +193,73 @@ namespace Topic_9___12___Assignment_2
 
         private void btnplus_Click(object sender, EventArgs e)
         {
-            
+            sign = "+";
+            enteredFirstNum = true;
+            enteredSecondNum = false;
+            txtdisplay.Text = "+";
         }
 
         private void btnminus_Click(object sender, EventArgs e)
         {
-
+            sign = "-";
+            enteredFirstNum = true;
+            enteredSecondNum = false;
+            txtdisplay.Text = "-";
         }
 
         private void btnmultiply_Click(object sender, EventArgs e)
         {
-
+            sign = "x";
+            enteredFirstNum = true;
+            enteredSecondNum = false;
+            txtdisplay.Text = "x";
         }
 
         private void btndivide_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btndelete_Click(object sender, EventArgs e)
-        {
-            
+            sign = "/";
+            enteredFirstNum = true;
+            enteredSecondNum = false;
+            txtdisplay.Text = "/";
         }
 
         private void btnequal_Click(object sender, EventArgs e)
         {
+            switch (sign)
+            {
+                case "+":
+                    result = firstNum + secondNum;
+                    break;
+                case "-":
+                    result = firstNum - secondNum;
+                    break;
+                case "x":
+                    result = firstNum * secondNum;
+                    break;
+                case "/":
+                    if (secondNum == 0)
+                    {
+                        MessageBox.Show("Cannot divide by zero");
+                        return;
+                    }
+                    else
+                    {
+                        result = firstNum / secondNum;
+                        break;
+                    }
+            }
 
+            lsthistory.Items.Add($"{firstNum} {sign} {secondNum} = {result}");
+
+            txtdisplay.Text = $"{result}";
+
+            firstNum = result;
+            enteredFirstNum = true;
+            enteredSecondNum = false;
+            secondNum = 0;
         }
-
     }
 }
-
 
 //Hard Version – Only do this if you are looking for a real challenge!
 //Make a calculator application that the user enters the numbers with the mouse by clicking on buttons,
