@@ -15,7 +15,6 @@ namespace Topic_9___12___Assignment_2
         string sign;
         double firstNum, secondNum, result = 0;
         bool enteredFirstNum = false;
-        bool enteredSecondNum = false;
 
         public MainForm()
         {
@@ -41,7 +40,6 @@ namespace Topic_9___12___Assignment_2
             firstNum = 0;
             secondNum = 0;
             enteredFirstNum = false;
-            enteredSecondNum = false;
             result = 0;
             lsthistory.Items.Clear();
         }
@@ -191,7 +189,6 @@ namespace Topic_9___12___Assignment_2
 
             sign = "+";
             enteredFirstNum = true;
-            enteredSecondNum = false;
             txtdisplay.Text = "";
         }
 
@@ -205,7 +202,6 @@ namespace Topic_9___12___Assignment_2
 
             sign = "-";
             enteredFirstNum = true;
-            enteredSecondNum = false;
             txtdisplay.Text = "";
         }
 
@@ -219,7 +215,6 @@ namespace Topic_9___12___Assignment_2
 
             sign = "x";
             enteredFirstNum = true;
-            enteredSecondNum = false;
             txtdisplay.Text = "";
         }
 
@@ -233,7 +228,6 @@ namespace Topic_9___12___Assignment_2
 
             sign = "/";
             enteredFirstNum = true;
-            enteredSecondNum = false;
             txtdisplay.Text = "";
         }
 
@@ -263,13 +257,13 @@ namespace Topic_9___12___Assignment_2
                     }
             }
 
-            lsthistory.Items.Add($"{firstNum} {sign} {secondNum} = {result}");
+            lsthistory.View = View.Details;
+            lsthistory.Items.Add($"\n{firstNum} {sign} {secondNum} = {result}");
 
-            txtdisplay.Text = $"{result}";
+            txtdisplay.Text = $"{firstNum} {sign} {secondNum} = {result}";
 
             firstNum = result;
             enteredFirstNum = true;
-            enteredSecondNum = false;
             secondNum = 0;
         }
     }

@@ -458,7 +458,6 @@
             this.txtdisplay.ReadOnly = true;
             this.txtdisplay.Size = new System.Drawing.Size(369, 30);
             this.txtdisplay.TabIndex = 19;
-            this.txtdisplay.Text = "0";
             this.txtdisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lsthistory
