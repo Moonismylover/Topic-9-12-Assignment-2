@@ -468,7 +468,7 @@
             this.lsthistory.HideSelection = false;
             this.lsthistory.Location = new System.Drawing.Point(17, 12);
             this.lsthistory.Name = "lsthistory";
-            this.lsthistory.Size = new System.Drawing.Size(179, 51);
+            this.lsthistory.Size = new System.Drawing.Size(369, 51);
             this.lsthistory.TabIndex = 20;
             this.lsthistory.UseCompatibleStateImageBehavior = false;
             // 

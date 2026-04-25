@@ -48,6 +48,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btnone_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -62,6 +63,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btntwo_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -76,6 +78,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btnthree_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -90,6 +93,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btnfour_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -104,6 +108,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btnfive_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -118,6 +123,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btnsix_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -132,6 +138,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btnseven_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -146,6 +153,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btneight_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -160,6 +168,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btnnine_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -174,6 +183,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btnzero_Click(object sender, EventArgs e)
         {
+            txtdisplay.Text = "";
             if (enteredFirstNum == false)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -197,6 +207,11 @@ namespace Topic_9___12___Assignment_2
             enteredFirstNum = true;
             enteredSecondNum = false;
             txtdisplay.Text = "+";
+
+            if (!enteredFirstNum)
+            {
+                MessageBox.Show("Please enter a number first!", "Error", MessageBoxButtons.OK);
+            }
         }
 
         private void btnminus_Click(object sender, EventArgs e)
@@ -205,6 +220,11 @@ namespace Topic_9___12___Assignment_2
             enteredFirstNum = true;
             enteredSecondNum = false;
             txtdisplay.Text = "-";
+
+            if (!enteredFirstNum)
+            {
+                MessageBox.Show("Please enter a number first!", "Error", MessageBoxButtons.OK);
+            }
         }
 
         private void btnmultiply_Click(object sender, EventArgs e)
@@ -213,6 +233,11 @@ namespace Topic_9___12___Assignment_2
             enteredFirstNum = true;
             enteredSecondNum = false;
             txtdisplay.Text = "x";
+
+            if (!enteredFirstNum)
+            {
+                MessageBox.Show("Please enter a number first!", "Error", MessageBoxButtons.OK);
+            }
         }
 
         private void btndivide_Click(object sender, EventArgs e)
@@ -221,6 +246,11 @@ namespace Topic_9___12___Assignment_2
             enteredFirstNum = true;
             enteredSecondNum = false;
             txtdisplay.Text = "/";
+
+            if (!enteredFirstNum)
+            {
+                MessageBox.Show("Please enter a number first!", "Error", MessageBoxButtons.OK);
+            }
         }
 
         private void btnequal_Click(object sender, EventArgs e)
