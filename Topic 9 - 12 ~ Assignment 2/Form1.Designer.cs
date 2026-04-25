@@ -66,7 +66,6 @@
             this.ttmultiply = new System.Windows.Forms.ToolTip(this.components);
             this.ttdivide = new System.Windows.Forms.ToolTip(this.components);
             this.txtdisplay = new System.Windows.Forms.TextBox();
-            this.lsthistory = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // btnone
@@ -75,7 +74,7 @@
             this.btnone.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnone.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnone.ForeColor = System.Drawing.Color.Crimson;
-            this.btnone.Location = new System.Drawing.Point(12, 167);
+            this.btnone.Location = new System.Drawing.Point(11, 111);
             this.btnone.Name = "btnone";
             this.btnone.Size = new System.Drawing.Size(89, 47);
             this.btnone.TabIndex = 0;
@@ -90,7 +89,7 @@
             this.btntwo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btntwo.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntwo.ForeColor = System.Drawing.Color.Crimson;
-            this.btntwo.Location = new System.Drawing.Point(107, 167);
+            this.btntwo.Location = new System.Drawing.Point(106, 111);
             this.btntwo.Name = "btntwo";
             this.btntwo.Size = new System.Drawing.Size(89, 47);
             this.btntwo.TabIndex = 1;
@@ -105,7 +104,7 @@
             this.btnthree.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnthree.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnthree.ForeColor = System.Drawing.Color.Crimson;
-            this.btnthree.Location = new System.Drawing.Point(202, 167);
+            this.btnthree.Location = new System.Drawing.Point(201, 111);
             this.btnthree.Name = "btnthree";
             this.btnthree.Size = new System.Drawing.Size(89, 47);
             this.btnthree.TabIndex = 2;
@@ -120,7 +119,7 @@
             this.btnfour.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnfour.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnfour.ForeColor = System.Drawing.Color.Crimson;
-            this.btnfour.Location = new System.Drawing.Point(12, 229);
+            this.btnfour.Location = new System.Drawing.Point(11, 173);
             this.btnfour.Name = "btnfour";
             this.btnfour.Size = new System.Drawing.Size(89, 47);
             this.btnfour.TabIndex = 3;
@@ -135,7 +134,7 @@
             this.btnfive.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnfive.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnfive.ForeColor = System.Drawing.Color.Crimson;
-            this.btnfive.Location = new System.Drawing.Point(107, 229);
+            this.btnfive.Location = new System.Drawing.Point(106, 173);
             this.btnfive.Name = "btnfive";
             this.btnfive.Size = new System.Drawing.Size(89, 47);
             this.btnfive.TabIndex = 4;
@@ -151,7 +150,7 @@
             this.btnsix.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsix.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsix.ForeColor = System.Drawing.Color.Crimson;
-            this.btnsix.Location = new System.Drawing.Point(202, 229);
+            this.btnsix.Location = new System.Drawing.Point(201, 173);
             this.btnsix.Name = "btnsix";
             this.btnsix.Size = new System.Drawing.Size(89, 47);
             this.btnsix.TabIndex = 5;
@@ -166,7 +165,7 @@
             this.btnseven.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnseven.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnseven.ForeColor = System.Drawing.Color.Crimson;
-            this.btnseven.Location = new System.Drawing.Point(12, 291);
+            this.btnseven.Location = new System.Drawing.Point(11, 235);
             this.btnseven.Name = "btnseven";
             this.btnseven.Size = new System.Drawing.Size(89, 47);
             this.btnseven.TabIndex = 6;
@@ -181,7 +180,7 @@
             this.btneight.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btneight.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btneight.ForeColor = System.Drawing.Color.Crimson;
-            this.btneight.Location = new System.Drawing.Point(107, 291);
+            this.btneight.Location = new System.Drawing.Point(106, 235);
             this.btneight.Name = "btneight";
             this.btneight.Size = new System.Drawing.Size(89, 47);
             this.btneight.TabIndex = 7;
@@ -196,7 +195,7 @@
             this.btnnine.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnnine.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnnine.ForeColor = System.Drawing.Color.Crimson;
-            this.btnnine.Location = new System.Drawing.Point(202, 291);
+            this.btnnine.Location = new System.Drawing.Point(201, 235);
             this.btnnine.Name = "btnnine";
             this.btnnine.Size = new System.Drawing.Size(89, 47);
             this.btnnine.TabIndex = 8;
@@ -211,7 +210,7 @@
             this.btnzero.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnzero.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnzero.ForeColor = System.Drawing.Color.Crimson;
-            this.btnzero.Location = new System.Drawing.Point(107, 355);
+            this.btnzero.Location = new System.Drawing.Point(106, 299);
             this.btnzero.Name = "btnzero";
             this.btnzero.Size = new System.Drawing.Size(89, 47);
             this.btnzero.TabIndex = 9;
@@ -226,7 +225,7 @@
             this.btndot.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btndot.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndot.ForeColor = System.Drawing.Color.Crimson;
-            this.btndot.Location = new System.Drawing.Point(12, 355);
+            this.btndot.Location = new System.Drawing.Point(11, 299);
             this.btndot.Name = "btndot";
             this.btndot.Size = new System.Drawing.Size(89, 47);
             this.btndot.TabIndex = 10;
@@ -241,7 +240,7 @@
             this.btnequal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnequal.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnequal.ForeColor = System.Drawing.Color.Crimson;
-            this.btnequal.Location = new System.Drawing.Point(202, 355);
+            this.btnequal.Location = new System.Drawing.Point(201, 299);
             this.btnequal.Name = "btnequal";
             this.btnequal.Size = new System.Drawing.Size(89, 47);
             this.btnequal.TabIndex = 11;
@@ -256,7 +255,7 @@
             this.btnplus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnplus.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnplus.ForeColor = System.Drawing.Color.Crimson;
-            this.btnplus.Location = new System.Drawing.Point(297, 167);
+            this.btnplus.Location = new System.Drawing.Point(296, 111);
             this.btnplus.Name = "btnplus";
             this.btnplus.Size = new System.Drawing.Size(89, 47);
             this.btnplus.TabIndex = 12;
@@ -271,7 +270,7 @@
             this.btnminus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnminus.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnminus.ForeColor = System.Drawing.Color.Crimson;
-            this.btnminus.Location = new System.Drawing.Point(297, 229);
+            this.btnminus.Location = new System.Drawing.Point(296, 173);
             this.btnminus.Name = "btnminus";
             this.btnminus.Size = new System.Drawing.Size(89, 47);
             this.btnminus.TabIndex = 13;
@@ -286,7 +285,7 @@
             this.btnmultiply.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnmultiply.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmultiply.ForeColor = System.Drawing.Color.Crimson;
-            this.btnmultiply.Location = new System.Drawing.Point(297, 291);
+            this.btnmultiply.Location = new System.Drawing.Point(296, 235);
             this.btnmultiply.Name = "btnmultiply";
             this.btnmultiply.Size = new System.Drawing.Size(89, 47);
             this.btnmultiply.TabIndex = 14;
@@ -301,7 +300,7 @@
             this.btndivide.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btndivide.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndivide.ForeColor = System.Drawing.Color.Crimson;
-            this.btndivide.Location = new System.Drawing.Point(297, 355);
+            this.btndivide.Location = new System.Drawing.Point(296, 299);
             this.btndivide.Name = "btndivide";
             this.btndivide.Size = new System.Drawing.Size(89, 47);
             this.btndivide.TabIndex = 15;
@@ -316,7 +315,7 @@
             this.btnclear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnclear.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnclear.ForeColor = System.Drawing.Color.Crimson;
-            this.btnclear.Location = new System.Drawing.Point(202, 114);
+            this.btnclear.Location = new System.Drawing.Point(201, 58);
             this.btnclear.Name = "btnclear";
             this.btnclear.Size = new System.Drawing.Size(184, 47);
             this.btnclear.TabIndex = 17;
@@ -331,7 +330,7 @@
             this.btnquit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnquit.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnquit.ForeColor = System.Drawing.Color.Crimson;
-            this.btnquit.Location = new System.Drawing.Point(12, 114);
+            this.btnquit.Location = new System.Drawing.Point(11, 58);
             this.btnquit.Name = "btnquit";
             this.btnquit.Size = new System.Drawing.Size(184, 47);
             this.btnquit.TabIndex = 18;
@@ -453,31 +452,19 @@
             // 
             this.txtdisplay.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtdisplay.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdisplay.Location = new System.Drawing.Point(17, 69);
+            this.txtdisplay.Location = new System.Drawing.Point(16, 13);
             this.txtdisplay.Name = "txtdisplay";
             this.txtdisplay.ReadOnly = true;
             this.txtdisplay.Size = new System.Drawing.Size(369, 30);
             this.txtdisplay.TabIndex = 19;
             this.txtdisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lsthistory
-            // 
-            this.lsthistory.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lsthistory.ForeColor = System.Drawing.Color.IndianRed;
-            this.lsthistory.HideSelection = false;
-            this.lsthistory.Location = new System.Drawing.Point(17, 12);
-            this.lsthistory.Name = "lsthistory";
-            this.lsthistory.Size = new System.Drawing.Size(369, 51);
-            this.lsthistory.TabIndex = 20;
-            this.lsthistory.UseCompatibleStateImageBehavior = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightPink;
-            this.ClientSize = new System.Drawing.Size(398, 414);
-            this.Controls.Add(this.lsthistory);
+            this.ClientSize = new System.Drawing.Size(398, 352);
             this.Controls.Add(this.txtdisplay);
             this.Controls.Add(this.btnquit);
             this.Controls.Add(this.btnclear);
@@ -544,7 +531,6 @@
         private System.Windows.Forms.ToolTip ttmultiply;
         private System.Windows.Forms.ToolTip ttdivide;
         private System.Windows.Forms.TextBox txtdisplay;
-        private System.Windows.Forms.ListView lsthistory;
     }
 }
 

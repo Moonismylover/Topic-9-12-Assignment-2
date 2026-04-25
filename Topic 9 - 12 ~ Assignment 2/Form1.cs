@@ -85,7 +85,7 @@ namespace Topic_9___12___Assignment_2
 
         private void btnfour_Click(object sender, EventArgs e)
         {
-            txtdisplay.Text = "4";
+            txtdisplay.Text += "4";
             if (!enteredFirstNum)
             {
                 double.TryParse(txtdisplay.Text, out firstNum);
@@ -183,7 +183,7 @@ namespace Topic_9___12___Assignment_2
         {
             if (txtdisplay.Text == "")
             {
-                MessageBox.Show("Enter a number first");
+                MessageBox.Show("Enter a number first", "ERROR", MessageBoxButtons.OK);
                 return;
             }
 
@@ -196,7 +196,7 @@ namespace Topic_9___12___Assignment_2
         {
             if (txtdisplay.Text == "")
             {
-                MessageBox.Show("Enter a number first");
+                MessageBox.Show("Enter a number first", "ERROR", MessageBoxButtons.OK);
                 return;
             }
 
@@ -209,7 +209,7 @@ namespace Topic_9___12___Assignment_2
         {
             if (txtdisplay.Text == "")
             {
-                MessageBox.Show("Enter a number first");
+                MessageBox.Show("Enter a number first", "ERROR", MessageBoxButtons.OK);
                 return;
             }
 
@@ -222,7 +222,7 @@ namespace Topic_9___12___Assignment_2
         {
             if (txtdisplay.Text == "")
             {
-                MessageBox.Show("Enter a number first");
+                MessageBox.Show("Enter a number first", "ERROR", MessageBoxButtons.OK);
                 return;
             }
 
@@ -257,9 +257,6 @@ namespace Topic_9___12___Assignment_2
                     }
             }
 
-            lsthistory.View = View.Details;
-            lsthistory.Items.Add($"\n{firstNum} {sign} {secondNum} = {result}");
-
             txtdisplay.Text = $"{firstNum} {sign} {secondNum} = {result}";
 
             firstNum = result;
@@ -268,10 +265,3 @@ namespace Topic_9___12___Assignment_2
         }
     }
 }
-
-//Hard Version – Only do this if you are looking for a real challenge!
-//Make a calculator application that the user enters the numbers with the mouse by clicking on buttons,
-//like a real calculator. Exactly what features you add is up to you. There will be lot’s to consided:
-// How will your calculator know whether you are entering the first or second number?
-// How will it store the operation that was chosen?
-// What happens after you press equal?
